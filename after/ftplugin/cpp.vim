@@ -1,9 +1,11 @@
 "completion"
+"basic config for use of omnicppcomplete
+set nocp
 "add tags"
-set tags+=~/.vim/tags/cpp/stl
-set tags+=~/.vim/tags/cpp/glut
-set tags+=~/.vim/tags/cpp/opengl
-set tags+=~/.vim/tags/cpp/qt
+setlocal tags+=~/.vim/tags/cpp/stl
+setlocal tags+=~/.vim/tags/cpp/glut
+setlocal tags+=~/.vim/tags/cpp/opengl
+setlocal tags+=~/.vim/tags/cpp/qt
 " build tags of your own project with CTRL+F12"
 nmap <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " OmniCppComplete

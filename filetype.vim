@@ -3,5 +3,5 @@ if exists("did_load_filetypes")
 endif
 
 augroup filetypedetect
-	au! BufRead,BufNewFile *.thtml set filetype htmldjango
+	au! BufRead,BufNewFile *.thtml setfiletype htmldjango
 augroup END

@@ -101,3 +101,7 @@ nmap <F7> :cp<cr>
 
 "cloud input method"
 let g:vimim_cloud='google'
+
+"super tab plugin
+let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+let g:SuperTabRetainCompletionType=2
