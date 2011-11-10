@@ -1,0 +1,6 @@
+Please install ctags by yourself
+Linux(Ubuntu):
+sudo apt-get install exuberant-ctags
+Mac OS X
+install MacPorts
+sudo port install ctags
