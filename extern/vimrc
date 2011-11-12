@@ -40,8 +40,6 @@ if has("autocmd")
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
 
-  autocmd BufEnter * cd %:p:h
-  
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
@@ -105,3 +103,6 @@ let g:vimim_cloud='google'
 "super tab plugin
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 let g:SuperTabRetainCompletionType=2
+
+"change workpath to the path of current buffer
+nmap cdc :cd %:p:h<cr>
