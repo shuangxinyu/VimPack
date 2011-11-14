@@ -1,4 +1,4 @@
-setlocal softtabstop=4
+setlocal expandtab softtabstop=4
 let python_highlight_all = 1
 "pysmell
 setlocal omnifunc=pysmell#Complete

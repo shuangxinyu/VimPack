@@ -1,6 +1,6 @@
 "completion"
 "basic config for use of omnicppcomplete
-setlocal nocp
+setlocal nocp expandtab softtabstop=2 shiftwidth=2 tabstop=2
 "add tags"
 setlocal tags+=~/.vim/tags/cpp/stl
 setlocal tags+=~/.vim/tags/cpp/glut

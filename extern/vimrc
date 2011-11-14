@@ -57,7 +57,7 @@ else
 endif " has("autocmd")
 
 " Tabs and indenting
-set expandtab
+set noexpandtab
 set softtabstop=0
 set shiftwidth=4
 set tabstop=4
